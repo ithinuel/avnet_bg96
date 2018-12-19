@@ -1,0 +1,19 @@
+{
+    "name": "avnet_bg96",
+    "config": {
+        "power": {
+            "help": "Modem's power key.",
+            "value": "NC"
+        },
+        "reset": {
+            "help": "Modem's reset.",
+            "value": "NC"
+        }
+    },
+    "target_overrides": {
+        "NUCLEO_L476RG": {
+            "reset": "D11",
+            "power": "D10"
+        }
+    }
+}
